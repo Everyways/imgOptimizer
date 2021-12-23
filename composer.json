@@ -1,0 +1,30 @@
+{
+    "name": "everyways/multicurl-img-optimizer",
+    "description": "mulitcurl for PHP",
+    "keywords": ["curl", "curl_multi_select", "multicurl", "phpmulticurl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "everyways",
+            "email": "everyways.b@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpMultiCurl\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "symfony/process": "^4.4"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
